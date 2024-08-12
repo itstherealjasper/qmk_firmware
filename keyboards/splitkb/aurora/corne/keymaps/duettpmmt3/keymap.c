@@ -132,15 +132,15 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     // 1 is right-half encoder
     if (index == 0) {
         if (clockwise) {
-            tap_code(KC_DOWN);
-        } else {
             tap_code(KC_UP);
+        } else {
+            tap_code(KC_DOWN);
         }
     } else if (index == 1) {
         if (clockwise) {
-            tap_code(KC_RIGHT);
-        } else {
             tap_code(KC_LEFT);
+        } else {
+            tap_code(KC_RIGHT);
         }
     }
 

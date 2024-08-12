@@ -13,8 +13,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-BOOTLOADER = atmel-dfu
-
 RGB_MATRIX_ENABLE = no
 RGBLIGHT_ENABLE = no
 TAP_DANCE_ENABLE = yes

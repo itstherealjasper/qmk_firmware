@@ -16,7 +16,7 @@
 
 #pragma once
 
-#define ENCODER_RESOLUTION 2
+#define ENCODER_RESOLUTION 4
 #define TAPPING_TERM 185
 #define TAPPING_TOGGLE 2
 
