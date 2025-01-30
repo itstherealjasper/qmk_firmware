@@ -22,3 +22,12 @@ Both underglow and per-key RGB should be fading between red and off.
 ## OLEDs
 
 Both the primary and secondary side should be filled with characters.
+
+
+## Installation
+atmega:
+ 1. QMK MSYS: `qmk compile -kb splitkb/aurora/corne -km duett_no_rotary`
+ 2. QMK Toolbox select .HEX file
+ 3. Set MCU to ATmega32U4
+ 4. Check Auto-Flash
+ 5. Hit reset on the controller
